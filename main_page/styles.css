@@ -1,0 +1,189 @@
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #9b59b6;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10%; /* Отступ по краям в 10% */
+}
+
+.logo {
+    font-size: 1.5em;
+    width: 5%;
+    height: auto:
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navigation li {
+    margin-right: 20px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.cart img {
+    width: 50px;
+    height: auto;
+}
+
+.hero-section {
+    text-align: center;
+    padding: 20px;
+    margin: 0 10%; /* Отступ по краям в 10% */
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.slide {
+    position: relative;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+}
+
+.slide-title {
+    position: absolute;
+    top: 85%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    font-size: 24px;
+    font-weight: bold;
+    color: #2b49bf;
+}
+
+.hero-section input {
+    margin-top: 20px;
+    width: 30%;
+    height: 30px
+}
+
+.hero-section button {
+    margin-top: 20px;
+    background-color:#9B59B6;
+    color: white;
+    font-style: bold;
+    height: 30px
+}
+
+.about-us, .advantages, .product-catalog, .testimonials, .faq {
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 20px;
+    margin: 0 10%; /* Отступ по краям в 10% */
+}
+
+.advantages ul {
+    list-style: none;
+    padding: 0;
+}
+
+.advantages li {
+    padding: 5px 0;
+}
+
+.filters {
+    margin-top: 20px;
+}
+
+.filters label {
+    margin-right: 10px;
+}
+
+.filters select {
+    margin-right: 20px;
+}
+
+.category {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.category img {
+    width: 10%;
+    height: auto;
+}
+
+.category-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left:30px;
+}
+
+.testimonials {
+    background-color: #eee;
+    text-align: center;
+}
+
+.faq dl {
+    margin-top: 20px;
+}
+
+.faq dt {
+    font-weight: bold;
+}
+
+.faq dd {
+    margin-bottom: 10px;
+}
+
+.footer {
+    background-color: #9b59b6;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin: 0 10%; /* Отступ по краям в 10% */
+}
+
+.footer-navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-navigation li {
+    margin-right: 20px;
+}
+
+.footer-navigation a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.social-links a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.company-details,
+.privacy-policy {
+    margin-top: 20px;
+}
